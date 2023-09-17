@@ -60,7 +60,7 @@
           <component id="26f1" class="javax.swing.JLabel" binding="myImage">
             <constraints border-constraint="West"/>
             <properties>
-              <text value="Label"/>
+              <text value=""/>
             </properties>
           </component>
         </children>

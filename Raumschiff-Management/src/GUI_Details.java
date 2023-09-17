@@ -50,7 +50,8 @@ public class GUI_Details extends JFrame{
             }
         });
 
-        JPanelImage.add(myImage);
+        //JPanelImage.add(myImage);
+
         checkBox1.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
