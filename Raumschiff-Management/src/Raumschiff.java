@@ -61,6 +61,11 @@ public class Raumschiff {
         this.image = image;
     }
 
+
+    public int addNum(int a, int b){
+        return a+b;
+    }
+
     @Override
     public String toString() {
         return "Raumschiff{" +
