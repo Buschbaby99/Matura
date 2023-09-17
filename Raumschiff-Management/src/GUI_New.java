@@ -69,7 +69,7 @@ public class GUI_New extends JFrame{
 
                 if (name.isEmpty() || treibstoff.isEmpty() || schutzschild.isEmpty() || ausstattung_name.isEmpty()
                         || energieverbrauch.isEmpty() || effizienz.isEmpty() || type.isEmpty()) {
-                    JOptionPane.showMessageDialog(null, "Alle Felder müssen ausgefüllt sein!");
+                    JOptionPane.showMessageDialog(null, "Alle felder ausfüllen!", "Error", JOptionPane.ERROR_MESSAGE);
                 } else {
                     // Erstelle ein neues Raumschiff und füge es zur Liste hinzu
                     int treibstoffInt = Integer.parseInt(treibstoff);

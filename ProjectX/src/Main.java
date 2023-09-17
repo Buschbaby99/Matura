@@ -103,7 +103,7 @@ public class Main {
          * File System
          */
 
-        FileSystemGUI fileSystemGUI = new FileSystemGUI();
+        //FileSystemGUI fileSystemGUI = new FileSystemGUI();
 
 
         /**
@@ -145,5 +145,15 @@ public class Main {
         System.out.println(myFile.getPath());
 
          */
+
+        FileReader fileReader = new FileReader("src/Test/t");
+
+        // Setzen Sie den Delimiter hier
+        fileReader.readFileAndSplitByDelimiter(" ");
+
+        List<String> words = fileReader.getWords();
+        for (String word : words) {
+            System.out.println(word);
+        }
     }
 }
